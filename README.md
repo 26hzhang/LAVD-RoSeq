@@ -57,23 +57,23 @@ python3 train_roseq.py --language spanish --at true --word_project true --concat
 ```
 
 For Dutch (CoNLL-2002 Dutch NER):
-```bash
+```shell script
 python3 train_roseq.py --language dutch --at true --word_project true --concat_rnn false --train false
 ```
 
 For English (CoNLL-2003 English NER):
-```bash
+```shell script
 python3 train_roseq.py --language english --at true --word_project true --concat_rnn false --word_dim 200 --train false
 ```
 
 For WNUT-2016 (WNUT-2016 Twitter NER):
-```bash
+```shell script
 python3 train_roseq.py --language wnut2016 --dev_for_train true --use_orthographic true --at true --concat_rnn true \
                        --focal_loss true --word_project true --train false
 ```
 
 For WNUT-2017 (WNUT-2017 Twitter NER):
-```bash
+```shell script
 python3 train_roseq.py --language wnut2017 --at true --use_orthographic true --focal_loss true --word_project false \
                        --concat_rnn true --train false
 ```
