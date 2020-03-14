@@ -32,13 +32,13 @@ To train a LAVD model, run:
 $ python3 run_lavd.py --task conll2003_ner --partial_rate 0.5 --raw_path <dataset_path> \
                       --wordvec_path <pre-trained word vectors path> --save_path  <save path> 
 ```
-LAVD use the GloVe 200d word embeddings, which are available [here](https://nlp.stanford.edu/projects/glove/).
+LAVD use 200d GloVe word embeddings, which are available [here](https://nlp.stanford.edu/projects/glove/).
 
 To train a RoSeq model, run:
 ```shell script
 python3 run_roseq.py --language spanish --at true --word_project true --focal_loss true
 ```
-RoSeq used GloVe 100d word embeddings for English ([here](https://nlp.stanford.edu/projects/glove/)), while 50d word2vec 
+RoSeq used 100d GloVe word embeddings for English ([here](https://nlp.stanford.edu/projects/glove/)), while 50d word2vec 
 word embeddings for other languages, which are available 
 [here](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html).
 
