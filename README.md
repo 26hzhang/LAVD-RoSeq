@@ -71,7 +71,7 @@ python3 train_roseq.py --language english --at true --word_project true --concat
 
 For WNUT-2016 (WNUT-2016 Twitter NER):
 ```shell script
-python3 train_roseq.py --language wnut2016 --dev_for_train true --use_orthographic true --at true \
+python3 train_roseq.py --language wnut2016 --use_orthographic true --at true \
                        --concat_rnn true --focal_loss true --word_project true --train false
 ```
 
