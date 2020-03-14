@@ -42,11 +42,11 @@ RoSeq used 100d GloVe word embeddings for English ([here](https://nlp.stanford.e
 word embeddings for other languages, which are available 
 [here](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html).
 
-**Note**: to obtain the main results of Table 3 in "RoSeq: Robust Sequence Labeling", please download 
+**Note**: to obtain the main results of Table 3 in "RoSeq: Robust Sequence Labeling", you can download 
 
-- the trained weights from [Box Drive (ckpt)](https://app.box.com/s/vrw92w0rugqp7mtz5oqdmx1wfo0yf7r8) and save them 
+- The trained weights from [Box Drive (ckpt)](https://app.box.com/s/vrw92w0rugqp7mtz5oqdmx1wfo0yf7r8) and save them 
 to `./ckpt/` folder.
-- the processed dataset from [Box Drive (data)](https://app.box.com/s/9qoqm6mx1it42chukmyogeb0f2ylgqit) and save them 
+- The processed dataset from [Box Drive (data)](https://app.box.com/s/9qoqm6mx1it42chukmyogeb0f2ylgqit) and save them 
 to `./datasets/data/` folder.
 
 Then run the following commands.
