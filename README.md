@@ -38,7 +38,7 @@ To train a RoSeq model, run:
 ```shell script
 python3 run_roseq.py --language spanish --at true --word_project true --focal_loss true
 ```
-RoSeq used 100d GloVe word embeddings for English ([here](https://nlp.stanford.edu/projects/glove/)), while 50d word2vec 
+RoSeq used GloVe 100d word embeddings for English ([here](https://nlp.stanford.edu/projects/glove/)), while 50d word2vec 
 word embeddings for other languages, which are available 
 [here](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html).
 
